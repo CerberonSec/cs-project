@@ -1,0 +1,15 @@
+Cerberon fork of CyberStrike — notices
+======================================
+
+This repository is a modified copy of CyberStrike, published to satisfy the source-offer
+obligation of the GNU Affero General Public License v3.0 (AGPL-3.0) under which CyberStrike is
+licensed.
+
+- Upstream: CyberStrike — https://github.com/CyberStrikeus/CyberStrike (https://cyberstrike.io/)
+- Upstream commit this fork is based on: 2c4c28c92b19a9d13b970b0801fc807eb6a1aa3a
+- Licence: AGPL-3.0. The unmodified licence text is in LICENSE and applies to this repository.
+- Modification: `packages/cyberstrike/src/tool/ensure-tools.ts` refuses any run-time tool
+  installation; the scanner binaries are supplied by the operator's own tools image. No other
+  source file is changed from the upstream commit above.
+- Date of modification: 2026-10-07.
+- This repository contains no Cerberon Core source and is not part of the Cerberon product.

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://cyberstrike.io/config.json",
+  "provider": {
+    "cyberstrike": {
+      "options": {}
+    }
+  },
+  "mcp": {
+  }
+}
